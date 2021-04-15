@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). 
+
+For this project I used NPM packages Firebase & Firebase-Hooks, I did not use the offical library, ReactFire, because at the time of makling this project still in experimental status, and relys healivy on react <Suspence> which would add some unnecessary complexity, especially with regards to server side rendering. 
 
 ## Getting Started
 
