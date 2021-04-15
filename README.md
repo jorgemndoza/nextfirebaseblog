@@ -1,6 +1,10 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). 
 
-For this project I used NPM packages Firebase & Firebase-Hooks, I did not use the offical library, ReactFire, because at the time of makling this project still in experimental status, and relys healivy on react <Suspence> which would add some unnecessary complexity, especially with regards to server side rendering. 
+I wanted to improve my Next.Js skills and build upon my [previous project](https://github.com/davidlindercodes/nextjs-blog) where I build a bare-barebones bloging site. This site enables you to add blog posts on the back end, and they are displayed in a somewhat-attractive manner on the front end. For this project I wanted to build a more complex blogging site, where users can log in on the front end, publish articles on the front end, and even like other articles (similar functionality to medium). 
+
+As my aim here was to practice my front end Next.Js skills, not my backend skills, so for this app I used the BaaS (back-end as a service) [Firebase](https://firebase.google.com/) to manage all the back end tasks such as database management, authorisation & hosting etc. 
+
+For this project I used NPM packages [Firebase](https://www.npmjs.com/package/firebase) & [React-Firebase-Hooks](https://www.npmjs.com/package/react-firebase-hooks), I chose not use the offical library, [ReactFire](https://www.npmjs.com/package/reactfire), because at the time of makling this project still in experimental status, and relys healivy on react <Suspence> which would add some unnecessary complexity, especially with regards to server side rendering. 
 
 ## Getting Started
 
