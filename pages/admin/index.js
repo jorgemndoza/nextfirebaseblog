@@ -1,6 +1,6 @@
 
 
-export defaul function AdminPage ({ }) {
+export default function AdminPage ({ }) {
     return (
 <main> 
 
